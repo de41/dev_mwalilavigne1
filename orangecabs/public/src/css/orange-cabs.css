@@ -1,0 +1,307 @@
+.img-fluid {
+ 	max-width: 100%;
+ 	height: auto;
+ 	margin-top: -150px;
+ 	margin-bottom: 30px;
+ }
+
+
+ .font-size-css{
+
+ 	font-size: 14px;
+ 	/*font-weight: bolder; */
+ 	/*text-align: justify;
+ 	/*color: #e7e7e7;*/
+ }
+
+ #image1-agency {
+
+margin-bottom: 30px;
+ }
+
+ /*image container agency*/
+
+ #img2-container-agency {
+
+ 	position: relative;
+ 	/*display: flex;
+ 	justify-content: center;
+ 	width: 500px;
+ 	border: 1 solid #eee;
+ 	flex-direction: row;
+ 	align-content: center;
+ 	margin-left: 20px;*/
+
+
+
+ }
+
+#image21-agency {
+
+	position: absolute;
+
+
+}
+
+#image22-agency {
+
+	position: absolute;
+	left: 110px;
+	
+}
+
+#image23-agency {
+
+	position: absolute;
+	left: 110px;
+	top: 40px;
+	
+}
+
+#image24-agency {
+
+	position: absolute;
+	left: 270px;
+	/*top: 40px;*/
+	
+}
+
+.clear {
+
+	clear: both;
+
+}
+
+#facebook-widget-social{
+	position:absolute;
+	top: 85px;
+	
+}
+
+.span-text {
+
+	color: black
+}
+
+#twitter-widget-social{
+	position:absolute;
+	top: 85px;
+	left: 50px;
+}
+
+#google-widget-social{
+	position:absolute;
+	top: 90px;
+	left: 90px;
+}
+
+#printerest-widget-social{
+	position:absolute;
+	top: 100px;
+	left: 250px;
+}
+
+.widget-style {
+
+	width: 40px;
+	height: 50px;
+
+}
+
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+  /*padding-right: 2px;*/
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  height: 40px;
+  /*display: inline-table;*/
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  /*background: #3B5998;*/
+  background: orange;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+ p{
+
+ 	font-size: 12px;
+ 	/*font-weight: lighter; */
+ 	text-align: justify;
+ 	color: #757575;
+ }
+#aboutus {
+	font-size: 13px;
+	margin-top: 130px;
+}
+.img1 {
+	width: 305px;
+	height: 152px;
+	padding-top: 17px;
+}
+.img2{
+	height: 60px;
+}
+.img2 img{
+	width: 20px;
+    height: 30px;
+}
+
+.input-agency {
+
+	background-color: #e7e7e7;
+	border: none;
+}
+
+#login-rader-image {
+
+	cursor: pointer;
+}
+
+/*#icon {
+	height: 20px;
+	width:auto;
+	text-decoration-color: orange;
+	margin-left: -25px; 
+	padding-top: 0px;
+
+}*/
+
+.p-style-appbook {
+
+	margin-right: 10px;
+}
+
+.colheybooking-title {
+	padding-bottom: 10px;
+}
+#phones {
+	margin-top: -350px;
+	width: 700px;
+	height: auto;
+	margin-left: -10px;
+}
+
+#img-booking-agency {
+	margin-top: 20px;
+}
+
+#onlinebooking {
+	margin-top: 0;
+}
+
+/*#appbooking {
+
+	height: 500px;
+	bottom: 0px;
+	
+}*/
+
+/*#img1-booking-agency {
+	position: absolute;
+	top: 0;
+}*/
+
+#container-image-agency, #container1-image-agency{
+
+	margin-top: -240px;
+	margin-left: 650px;
+}
+
+#container-image-agency-about{
+
+	margin-top: -10px;
+
+}
+
+#container-image-agency-online-booking {
+
+	margin-top: -10px;
+}
+
+
+
+h2 {
+	font-size: 12px;
+	font-weight: lighter;
+}
+.aboutus-text, h3{
+font-family: 'Dancing Script', cursive;
+color:#009ADD;
+}
+
+.label-style {
+   
+   color:#009ADD;
+
+}
+
+#form-back-rider {
+
+	margin-left: 50px;
+
+}
+
+#form-back-rider, input {
+
+	width: 400px;
+	border: none;
+	margin-left: 95px;
+	background-color: rgba(244, 244, 239,0,1);
+
+}
+
+.aboutus-text, h4{
+font-family: 'Dancing Script', cursive;
+color: #FBAF33;
+padding-bottom: 30px;
+}
+p{
+	font-size: 12px;
+}
+
+#rounded-left {
+
+	position: relative;
+}
+
+.img-imgur {
+
+	position: absolute;
+
+
+}
+
+.text-left-img-imgur {
+	position: absolute;
+	left: 70px;
+
+}
+
+#onlinebooking {
+
+	 margin-top: 0px;
+}

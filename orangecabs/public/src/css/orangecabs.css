@@ -1,0 +1,1096 @@
+/*Body:
+-Give the body element a relative position for the scrospy to work.
+-Add a font family to the whole page*/
+/*layout style*/
+body,html {
+    
+    font-family:'Vollkorn', sans-serif;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background: white;
+    overflow-x: hidden;
+    
+    
+}
+
+.checkbox input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 4px;
+    cursor:copy;
+}
+
+p, span, a, small, strong, blockquote{
+	font-size: 16px;
+    text-align: justify;
+ 	color: #757575;
+}
+
+.padding-container {margin-bottom: 40px}
+
+.col-sm-12{
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500
+}
+.main-navbar{
+    padding-top: 10px;
+}
+
+#navbar-container {
+    background: #11a0dc;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+#mobile-navigation{
+    display: none;
+    
+}
+
+/*
+.form-check-input[type=checkbox]{
+    padding: 3px;
+    cursor: context-menu;
+}
+*/
+
+.main-navbar ul{
+    list-style-type: none;
+    list-style-type: none;
+    padding: 10px 0px;
+    text-align: right;
+}
+.main-navbar ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.main-navbar ul li:last-child{margin-right: 0px;}
+.mobile-nav-list{
+    background: #11a0dc;
+}
+.mobile-nav-list ul{
+    
+    list-style-type: none;
+    color: #fff;
+    line-height: 28px;
+    padding-bottom: 26px;
+}
+.nav-icon{
+    padding: 10px 20px;
+    text-align: right;
+/*    background: #11a0dc;*/
+        background: #FED136;
+    color: #fff;
+}
+.nav-icon img{
+    width: 36px;
+}
+/* header navigation start*/
+
+  .header-navbar-agency{
+      
+      height: 70px;  
+      text-align: center;
+/*      background: rgba(0,154,221);*/
+/*      background: #009ADD;*/
+/*      background: #129AD2;*/
+      background:#11a0dc;
+/*      position:;*/
+          position: fixed;
+    top: 0;
+    z-index: 999;
+      
+  }
+
+.navbar-right {
+    display: block;
+        margin-right: -10px;
+}
+
+/*logo-brand*/
+
+.logo.brand {
+    padding: 2px;
+}
+.logo-brand img{
+    
+    width:90px;
+    height: 70px;
+    text-align: center;
+    padding-right: 0px;
+    
+}
+
+/*top-header menus*/
+.top-header {
+    height: 64px;
+    overflow: hidden;
+/*     padding: 10px 20px 0px 10px;*/
+}
+
+/*ul inside the div menus-agency*/
+/*
+
+/*menus-agency*/
+.menus-agency ul li {
+    
+    display: inline-block;
+    padding: 10px 5px 23px 10px;  
+    opacity: 0.8;
+}
+
+
+.menus-agency, ul li:last-child{
+    padding-right: 0px;
+}
+
+
+.menus-agency, ul li a {
+    color: #fff;
+    text-decoration: none;
+        
+}
+
+
+.menus-agency, ul li a:hover{
+    color: #fd7e14;
+    opacity: 1;
+    text-decoration: none;
+/*    text-decoration: underline;*/
+/*    border-bottom: 2px solid #fd7e14;*/
+    padding-bottom: 25px;
+        
+}
+
+.login-register {
+    
+    height: 70px;
+    padding: 5px;
+    opacity: 0.9;
+    text-align: center;
+           
+}
+
+.register-span, .login-span {
+    padding: 0px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.login-span a {
+    color: #fd7e14;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-span a:hover{color: #fff;}
+
+.register-span a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.register-span a:hover{color: #fff;}
+
+.login-register-middle-bar {
+    padding: 1.5px;
+    margin: 0px;
+    background: #fd7e14;
+    width: inherit;
+
+    margin-left: 5px;
+        
+}
+
+.container-fluid{
+    padding-right: 0px; 
+    padding-left: 0px;
+}
+/* header navigation end*/
+
+/*home home-orangecabs*/
+
+.home-orangecabs {
+    
+     background: url('../images/home.png') no-repeat center center;
+     background-size: cover;
+      height:800px;
+/*      margin-bottom: 20px;*/
+}
+
+.home-title *{
+    
+    text-align: center;
+    color: #fff;
+    
+    padding: 10px;
+}
+
+.home-title {
+    
+   padding-top: 139px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.home-title h3 {
+    
+    font-family:'Dancing Script', cursive; 
+    font-size: 54px;
+}
+
+#home-banner-container{
+    height:auto;
+    padding-top:220px;
+    
+}
+
+.button:hover {
+    background: rgba(17, 160, 220,0.8);
+    color: #fff;
+;border: 0px;
+    border-radius: 50px;
+}
+
+.button {
+    background:  rgba(219, 137, 37,0.0);
+    text-decoration: none;
+    color: #fff;
+}
+
+#home-banner-container a {text-decoration: none;}
+
+.content *{
+    color: #fff;
+    font-family: arial;
+    line-height: 1.5em;
+    padding: 10px;
+}
+
+.content-left {float: right; text-align: center; clear: both;margin-top: 218px; width: 320px;}
+
+.content-right {float: left; text-align: center; clear: both;margin-top: 218px; width: 320px;}
+
+.content-right h4 {text-align: center}
+.content-left h4 {text-align: center}
+
+@media (max-width:768px){
+    .content-left,.content-right {
+        float: none; text-align: center;width: 100%
+    }
+    
+    #navbar-container{
+        display: none;
+    }
+    
+    #mobile-navigation{
+        display: block;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+        width: 100%;
+        height: 100%;
+        margin-left: 0px
+        
+        
+    }
+    .mobile-nav-list{
+        display: none;
+    }
+}
+
+/*end home home-orangecabs */
+
+/*aboutus-container*/
+#aboutus-container {
+    height: auto;
+/*    border: 1px solid blue;*/
+    
+}
+
+.about-banner-image{
+     background: url('../images/2nd-page.jpg') no-repeat center center;
+    background-size: cover;
+/*      height: 400px;*/
+    padding-top: 500px;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Caveat', cursive;
+    font-size: 90px;
+    
+}
+
+.about-banner-image h3{
+    
+    padding-top: 250px;
+    
+}
+
+.content-aboutus-left {
+    padding-left: 50px;
+    font-size: 14px;
+}
+
+.content-aboutus-left p {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 22px;
+}
+
+.content-aboutus-left h3 h4 {
+    
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+.content-aboutus-left h3 {
+    
+/*    color: rgb(65, 174, 219);*/
+    color:  #11A0DC;
+}
+
+.content-aboutus-left h4 {
+    
+/*    color: rgb(65, 174, 219);*/
+/*    color: rgb(18, 154, 210);*/
+    color:#FCB134;
+}
+
+.content-aboutus-right {
+    padding-top: 20px;
+}
+
+.content-aboutus *{
+    
+    text-align: justify;
+    color: #000;
+    font-size: 12px;
+}
+
+.widget-all {
+ display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.widget img {
+   margin-right: 20px; 
+}
+
+
+/*appbooking syle*/
+.appbookings-banner-image {
+    
+    background: url('../images/appbookings.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 500px;
+
+}
+
+.advantage-content{
+   margin-bottom: 20px; 
+}
+
+.advantage-content img{
+    display: inline-block;
+    float:left;
+    margin-right: 19px;
+    clear: both;
+}
+
+.advantage-content p{
+    display: inline-block;
+    padding-top: 0px;
+    
+}
+
+.img-booking-agency{
+    text-align: center;margin-top: -35px;
+}
+
+.onlinebookings-banner-image {
+    
+    background: url('../images/rates-banner.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 500px;
+    
+}
+
+.onlinebookings .blue{
+    background: #11A0DC;
+    color: #fff;
+}
+
+.book-ride-content{
+    margin: 25px 0;
+    padding: 0 20px
+}
+.book-ride-content {
+    text-align: center;
+}
+.book-ride-content p{
+    text-align: center;
+}
+
+.book-ride-content li{
+    list-style: none;
+}
+/*rates section style*/
+.rates-banner-image {
+    
+     background: url('../images/rates-banner.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 500px;
+    
+}
+
+.contact-banner-image {
+    
+    background: url('../images/rates.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 500px;
+/*    z-index: 1;*/
+}
+
+contact { padding-left: 152px;}
+.contact h1 {    
+    text-align: justify;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: -100px;
+   
+}
+
+.padding-appbooking {
+    margin-top: 29px;
+    margin-bottom: 0px;
+}
+
+ .content_modals {
+
+    background-color:rgba(255, 2555, 255, 0.8);
+    margin-top: 75px;
+     overflow-x: hidden;
+} 
+
+.contactForm {
+    border: 1px solid #7d4abf;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.contactForm h3 {
+
+    color:#11A0DC;
+    font-size:60px;
+
+}
+  #footer {
+      margin-top: 10px;
+      background: #FCB134;
+      text-align: center;
+      overflow-x: hidden;
+      width: 100%;
+      
+  }
+        
+.foutercabs{
+    line-height: 3;
+    padding-top: 10px;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: -150px;
+    margin-bottom: 30px;
+ }
+ @media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 100%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+
+}
+@media only screen and (max-width:360px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+
+}
+
+.fa-share-alt {
+    color: #fff;
+    margin-left: 6rem !important;
+    cursor: pointer;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+  /*padding-right: 2px;*/
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  height: 40px;
+  /*display: inline-table;*/
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  /*background: #3B5998;*/
+  background: orange;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.img1 {
+    width: 305px;
+    height: 152px;
+    padding-top: 17px;
+}
+.img2{
+    height: 60px;
+}
+.img2 img{
+    width: 20px;
+    height: 30px;
+}
+
+/* .input-agency {
+
+    background-color: #e7e7e7;
+    border: none;
+} */
+
+#login-rader-image {
+
+    cursor: pointer;
+}
+
+.p-style-appbook {
+
+    margin-right: 10px;
+}
+
+.colheybooking-title {
+    padding-bottom: 10px;
+}
+#phones {
+    
+    width: 700px;
+    height: auto;
+    margin-left: -10px;
+        margin-top: 8px;
+}
+
+
+#onlinebooking {
+    margin-top: 10px;
+}
+
+
+#container-image-agency, #container1-image-agency{
+
+    margin-top: -240px;
+    margin-left: 650px;
+}
+
+#container-image-agency-about{
+
+    margin-top: -10px;
+
+}
+
+#container-image-agency-online-booking {
+
+    margin-top: -10px;
+}
+#container-image-agency-contact{
+  margin-top: -10px;
+  padding: 10px;
+
+}
+
+
+h2 {
+    font-size: 12px;
+    font-weight: lighter;
+}
+.aboutus-text, h3{
+font-family: 'Dancing Script', cursive;
+color:#009ADD;
+}
+
+.label-style {
+
+   color:#009ADD;
+
+}
+
+#form-back-rider {
+
+    margin-left: 50px;
+
+}
+
+#rounded-left {
+
+    position: relative;
+}
+
+.img-imgur {
+
+    position: absolute;
+
+
+}
+
+.text-left-img-imgur {
+    position: absolute;
+    left: 70px;
+
+}
+
+#onlinebooking {
+
+     margin-top: 0px;
+}
+
+
+/*Responsive style  */
+
+@media (min-width:360px){
+
+    .content-aboutus-left {
+        margin-left:0px;
+    }
+} 
+
+@media (min-width: 360px) {
+  section {
+    padding: 150px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+      height: 58px;
+
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+      height: 58px;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
+
+@media (min-width: 360px) {
+  header.masthead .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+}
+
+@media (min-width: 360px) {
+  header.masthead .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+}
+
+
+@media (min-width: 360px) {
+  .timeline:before {
+    left: 50%;
+  }
+  .timeline > li {
+    min-height: 100px;
+    margin-bottom: 100px;
+  }
+  .timeline > li .timeline-panel {
+    float: left;
+    width: 41%;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
+  .timeline > li .timeline-image {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 16px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    padding: 0 30px 20px 20px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .timeline > li {
+    min-height: 150px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px;
+  }
+  .timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 30px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 20px 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .timeline > li {
+    min-height: 170px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px 100px;
+  }
+  .timeline > li .timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
+  .timeline > li .timeline-image h4 {
+    margin-top: 40px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 100px 20px 20px;
+  }
+}
+
+input {
+  -webkit-appearance: textfield;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  padding: 1px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
+input, textarea, select, button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  font: 400 11px system-ui;
+}
+
+
+
+.blue {
+  line-height: normal;
+  background-color: #009ADD;
+}
+input, textarea, select, button, meter, progress {
+  -webkit-writing-mode: horizontal-tb !important;
+}
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+i.fa.fa-facebook-official {
+color:orange;
+margin-left: 41px;
+padding-top: 22px;
+margin-top: 0px;
+
+}
+i.fa.fa-twitter-square{
+color:#FBAF33;
+
+}
+i.fa.fa-google-plus-square{
+color:red;
+}
+i.fa.fa-pinterest-square{
+  color:red;
+
+  }
+
+#profile {
+    margin-top: 50px;
+}
+
+/* media query small media iphone*/
+
+@media screen and (max-width:568px){
+    #home-banner-container{
+        padding-top: 25px;
+    }
+    #mainNav .navbar-toggler {
+        padding: 4px;
+        height: 3rem;
+    }
+    .home-orangecabs{
+        background: url(img/rates-banner.jpg) no-repeat center center;
+    }
+    .content-right{
+        margin-top: 10px;
+    }
+    
+    .content-left{
+        margin-top:135px;
+    }
+    .home-orangecabs{
+        height: 630px;
+    }
+    
+    .content-aboutus-left{
+        /* width: 320px; */
+    }
+    .appbookings-banner-image, .about-banner-image, .onlinebookings-banner-image, .rates-banner-image, .contact-banner-image{
+        background-size: 100%;
+        padding-top: 120px;
+    }
+    
+    .widgets_orangecabs{
+        text-align: center;
+    }
+    .widgets_orangecabs img{
+        width: 270px;
+        height: 100px;
+        
+        
+    }
+    
+    .widgets_orangecabs .about-logo-right{
+        margin-top: 70px;
+        
+    }
+    #phones{
+        width: 280px;
+        text-align: center;
+    }
+    
+    .widget-apples img {
+        width: 110px;
+    }
+    
+    .widget-paypal img{
+        width: 98px;
+    }
+    
+    .widget-logo img{
+        width: 60px;
+        height: 60px;
+    }
+    .widget-all{
+        flex-wrap:nowrap;
+        margin-left: 27px;
+    }
+    
+    .widgets-social-media {
+        
+        margin-left: 27px;
+    }
+    
+    .rate-content .rate-p{
+        
+         padding: 20px 8px;
+    }
+    
+    .content-aboutus-left h3 {
+        
+        font-size: 14pz;
+    }
+    
+    .onlinebookings h3 {
+        
+            margin-top: -28px;
+    }
+    
+    .content-aboutus-left {
+        padding-left: 42px;}
+    
+}
+
+.activate-link {
+    color: #11A0DC;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+}
+
+.activate-link:hover{
+    font-size: 1.6rem;
+}
+
+.activate {
+    margin: 3rem auto;
+}
+
+/*Media ipad Medium*/
+
+@media screen and (max-width:768px){
+    .home-orangecabs{
+        background-size: 100%;
+        height: auto;
+    }
+    
+    #home-banner-container{
+        padding-top: 0;
+       
+    }
+    .content-aboutus-left {
+        margin: 1rem;
+    }
+    .content-aboutus-left p {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;ß
+    }
+    
+    .about-banner-image{
+        
+        margin-top: -25px;
+    }
+    
+    .appbookings-banner-image, .about-banner-image, .onlinebookings-banner-image, .rates-banner-image, .contact-banner-image{
+        background-size: 100%;
+        padding-top: 214px;
+    }
+    
+    
+    .widgets_orangecabs img {
+        
+        width: 290px;
+        height: 94px;
+    }
+    
+    .widget img {
+    margin-right: 4px;
+    }
+    
+    .widget-all {
+     width: 400px;
+    }
+    
+    .padding-container {
+     margin-bottom: 0px; 
+}
+    
+    .widget-apples img {
+        
+        width: 120px;
+    }
+    
+.img-booking-agency {
+    margin-top: -4px;
+}
+    
+ 
+}
+
+
+

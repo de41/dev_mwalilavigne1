@@ -1,0 +1,24 @@
+{
+  "name": "orangecabs-final-ok",
+  "version": "1.0.0",
+  "description": "orangecabs in progressive web application",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ".gitignore"
+  },
+  "keywords": [
+    "orange",
+    "cabs",
+    "app",
+    "orangecabs"
+  ],
+  "author": "Quirky30 - NPC",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
